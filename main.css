@@ -1,15 +1,15 @@
 @charset "utf-8";
 @font-face {
     font-family: 'myfont';
-    src: url('font/adventpro-light-webfont.woff2') format('woff2'),
-         url('font/adventpro-light-webfont.woff') format('woff');
+    src: url('adventpro-light-webfont.woff2') format('woff2'),
+         url('adventpro-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'rosario';
-    src: url('font/rosario-variablefont_wght-webfont.woff2') format('woff2'),
-         url('font/rosario-variablefont_wght-webfont.woff') format('woff');
+    src: url('rosario-variablefont_wght-webfont.woff2') format('woff2'),
+         url('rosario-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -69,7 +69,7 @@ a:hover{
     transition: all ease 0.5s;
 }
 header{
-    background-image: url('image/33429.jpg');
+    background-image: url('33429.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -190,7 +190,7 @@ button:active{
     height:350px;
     background-color:#202020;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url("image/4.jpg");
+     url("4.jpg");
     border-radius: 20px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
     color: rgb(230, 230, 230);
@@ -298,7 +298,7 @@ button:active{
     width:300px;
     height: 360px;
     background-color: black;
-    background-image: url(image/1.jpg);
+    background-image: url(1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
@@ -348,7 +348,7 @@ button:active{
 }
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-     url("image/4.jpg");
+     url("4.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
