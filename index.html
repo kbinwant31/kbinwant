@@ -1,0 +1,149 @@
+<!--Minor Project-2 -->
+<!--submitted by: Binwant Kaur-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel = "icon" type = "image/png" href = "image/ic.png" class="ic">
+    <title>Binwant Kaur</title>
+    <script src="https://use.fontawesome.com/13c90a2dd8.js"></script>
+</head>
+<body>
+    <header id="home">
+    <!--navigation--------------------------------------------------------- -->
+        <nav>
+        <!--logo-->
+        <a href="index.html" class="logo"><img src="image/logo.jpg" alt="logo" style="width:90px;height:55px;"></a>
+        <!--menu-->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+            <!--bars-->
+            <div class="toggle" style="display: inline;"></div>
+        </nav>
+        <!--Main-text------------------------------------------------------ -->
+        <div class="text">
+            <p>Hello,</p>
+            <p>I'M BINWANT</p>
+            <p>A Web Designer & Developer</p>
+            <a href="mailto:kbinwant31@gmail.com"><button>Hire me</button></a>
+        </div>
+    </header>
+    <!--About-------------------------------------------------------------- -->
+    <div id="about">
+    <div class="about">
+    <!--Image-->
+    <img src="image/me.jpg" alt="My Image">
+        <!--About Text-->
+        <div class="about-text">
+            <p>ABOUT <span>ME</span></p>
+            <p>Developer & Designer</p>
+            <p>Hi! My name is <span>Binwant Kaur</span>. I am a  Full-Stack 
+                Web Developer and Web Designer. I'm also a Software Engineer. 
+                I have a passion for web design and love to do creative work. 
+                If you have any project in mind then 
+                <a href="mailto:kbinwant31@gmail.com" title="E-mail me!">contact me.</a></p>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/binwant-kaur-6442451b3/" target="_blank">
+                    <img src="icon/linkedin.svg" alt="" title="Linkedin"></a>
+                <a href="https://www.instagram.com/binni_31/" target="_blank">
+                    <img src="icon/insta.svg" alt="" title="Instagram"></a>
+                <a href="https://www.facebook.com/binwantk1" target="_blank">
+                    <img src="icon/fb.svg" alt="" title="Facebook"></a>
+                <a href="https://pin.it/5IAi7kw" target="_blank">
+                    <img src="icon/pin.svg" alt="" title="Pinterest"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Services------------------------------------------------------------- -->
+    <div class="services" id="services">
+    <!--Services Text-->
+    <div class="services-text">
+        <p>Services</p>
+    </div>
+    <div class="box-container">
+        <!--box-1-->
+        <div class="box1">
+            <span>1</span>
+            <p>Web Design</p>
+            <p>
+                I can design creative webpages that are adaptive and responsive.
+                I like to keep it simple. My goals are to focus on typography,
+                 content and conveying the message that you want to send.
+            </p>
+        </div>
+        <!--box-2-->
+        <div class="box2">
+            <span>2</span>
+            <p>Web Development</p>
+            <p>I'm also a developer, so I know how to create your 
+                website to run across devices using the latest technologies available. 
+                I assure you that you'll be satisfied with my work.
+            </p>
+        </div>
+        <!--box-3-->
+        <div class="box3">
+            <span>3</span>
+            <p>App Development</p>
+            <p>I can also develop mobile apps. I am well acquainted with
+                Java, Javascript and some other languages required to 
+                make mobile applications. I can create interactive designs and 
+                GUI's and make any type of mobile app.
+            </p>
+        </div>
+    </div>
+    </div>
+    <!--Contact Me----------------------------------------------------------- -->
+    <div class="hero-image" id="contact" style="background-color: darkgrey;margin: 0px;padding: 0px;">
+        <div class="hero-text">
+              <a href="#" title="Click here!" style="cursor: pointer;"><h1>Contact Me</h1></a>
+              <p>I'm available now as a freelancer.
+                <br>If you have a project that you want to get started,
+                <br>think you need my help with something 
+                    just fancy saying hey, then get in touch.</p>
+              <a href="mailto:kbinwant31@gmail.com" target="_blank">
+                  <button>Hire me</button>
+              </a>
+        </div>
+    </div>
+    <!-- --Footer-------------------------------------------------------------- -->
+    <footer>
+        <i class="up">
+            <a href="#home"><img src="icon/up.svg" alt="Up"></a>
+        </i>
+        <!--Social Media----->
+        <div class="icon-wrap">
+                <a href="https://www.linkedin.com/in/binwant-kaur-6442451b3/" target="_blank">
+                    <img src="icon/linkedin.svg" alt="" title="Linkedin"></a>
+                <a href="https://www.instagram.com/binni_31/" target="_blank">
+                    <img src="icon/insta.svg" alt="" title="Instagram"></a>
+                <a href="https://www.facebook.com/binwantk1" target="_blank">
+                    <img src="icon/fb.svg" alt="" title="Facebook"></a>
+                <a href="https://pin.it/5IAi7kw" target="_blank">
+                    <img src="icon/pin.svg" alt="" title="Pinterest"></a>
+        </div>
+        <div class="info-box">
+          <div class="footnote">
+            BINWANT KAUR <span class="highlight">&copy;2020</span>
+          </div>
+        </div>
+      </footer>
+    <script src="js/JQuery.js"></script>
+    <script >
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+</html>
